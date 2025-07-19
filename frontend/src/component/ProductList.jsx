@@ -38,7 +38,7 @@ const ProductList = () => {
           <div key={index} className="w-80 shadow-xl p-8">
             <Link to={`/product/${product.product_id}`}>
               <img
-                src={`${BASE_URL}/${product.image}`}
+                src={`http://147.93.107.162:8006${product.image}`}
                 alt="product"
               />
               <span className="font-bold">{product.product_name}</span>
